@@ -1,15 +1,15 @@
-# 4. Data Description
+# Data Description
 
 **Source:** [Cancer Patients and Air Pollution](https://www.kaggle.com/datasets/thedevastator/cancer-patients-and-air-pollution-a-new-link/data)
 
-## 4.1 Preprocessing Steps
+## 1. Preprocessing Steps
 
 * **Missing Values:** None present.
 * **Outliers:** Not applicable for categorical and ordinal features.
 * **Drop Columns:** `index`, `Patient Id`.
 * **Encode Target:** Convert `Level` from `{'Low','Medium','High'}` to `{0,1,2}` respectively.
 
-## 4.2 Post-Processing Dataset Structure
+## 2. Post-Processing Dataset Structure
 
 | Column                   | Type  | Description                                            |
 | ------------------------ | ----- | ------------------------------------------------------ |
@@ -38,7 +38,7 @@
 | Snoring                  | int64 | Snoring severity                                       |
 | Level                    | int64 | Lung cancer risk level (0 = Low, 1 = Medium, 2 = High) |
 
-## 4.3 Preprocessing Code
+## 3. Preprocessing Code
 
 ```python
 import pandas as pd
