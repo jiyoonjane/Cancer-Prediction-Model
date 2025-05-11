@@ -47,6 +47,10 @@ We prioritize both predictive performance and model interpretability, applying f
 
 By applying multiple models, ensure robust variable identification and deep insights, leveraging each method’s strengths to deliver an interpretable and effective lung cancer risk prediction framework.
 
+
+
+
+
 # Conclusion
 
 ## 1. Model Performance Comparison
